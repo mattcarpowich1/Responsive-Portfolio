@@ -408,12 +408,14 @@ footer p {
 			display: flex;
 			justify-content: space-between;
 			width: 90%;
+			min-width: 632px;
 			margin: 0 auto;
 		}
 		
 
 		#content {
 			width: 90%;
+			min-width: 632px;
 		}
 
 		#main_section {
@@ -426,9 +428,37 @@ footer p {
 			width: auto;
 		}
 
+		#contact_form {
+			margin-top: 20px;
+			margin-left: 30px;
+			line-height: 1.5;
+		}
+
+		#contact_form input {
+			font-size: inherit;
+			font-family: inherit;
+			color: inherit;
+			border: 1px solid #ddd;
+			box-sizing: border-box;
+			/*width: 588px;*/
+			width: 95%;
+			margin-bottom: 15px;
+			padding: 4px 2px 4px 2px;
+		}
+
+		#contact_form textarea {
+			font-size: inherit;
+			font-family: inherit;
+			color: inherit;
+			/*width: 588px;*/
+			width: 95%;
+			border: 1px solid #ddd;
+		}
+
 		#portfolio_table {
 			margin-left: 30px;
 			margin-bottom: -30px;
+			/*min-width: 632px;*/
 		}
 
 		.portfolio-row {
@@ -445,6 +475,7 @@ footer p {
 		}
 
 		.portfolio-image {
+			flex-shrink: .8;
 			position: relative;
 			width: 276px;
 			height: 207px;
@@ -496,6 +527,7 @@ footer p {
 			flex-direction: column;
 			justify-content: center;
 			width: 100%;
+			min-width: 0px;
 			margin: 0 auto;
 		}
 
@@ -538,6 +570,7 @@ footer p {
 
 		#content {
 			width: 90%;
+			min-width: 0px;
 		}
 
 		#main_section {
@@ -577,8 +610,10 @@ footer p {
 
 		.portfolio-image {
 			position: relative;
-			width: 276px;
+			/*width: 276px;*/
 			width: 100%;
+			/*height: auto;*/
+			/*width: 100%;*/
 			margin-bottom: 30px;
 			/*height: 207px;*/
 		}
