@@ -603,8 +603,10 @@ footer p {
 		
 
 		#content {
+			display: block;
+			margin: 0 auto;
 			width: 90%;
-			min-width: 0px;
+			min-width: 360px;
 		}
 
 		#main_section {
@@ -624,6 +626,7 @@ footer p {
 		.portfolio_table {
 			/*width: 100%;*/
 			margin-bottom: 0px;
+			min-width: 384px;
 		}
 
 		.portfolio-row {
@@ -651,6 +654,10 @@ footer p {
 			/*width: 100%;*/
 			margin-bottom: 30px;
 			/*height: 207px;*/
+		}
+
+		.portfolio-image p {
+			white-space: nowrap;
 		}
 
 		.portfolio-image img {
