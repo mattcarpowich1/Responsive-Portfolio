@@ -623,6 +623,27 @@ footer p {
 			margin-bottom: 20px;
 		}
 
+		#contact_form input {
+			font-size: inherit;
+			font-family: inherit;
+			color: inherit;
+			border: 1px solid #ddd;
+			box-sizing: border-box;
+			/*width: 588px;*/
+			width: 93%;
+			margin-bottom: 15px;
+			padding: 4px 2px 4px 2px;
+		}
+
+		#contact_form textarea {
+			font-size: inherit;
+			font-family: inherit;
+			color: inherit;
+			/*width: 588px;*/
+			width: 93%;
+			border: 1px solid #ddd;
+		}
+
 		.portfolio_table {
 			/*width: 100%;*/
 			margin-bottom: 0px;
