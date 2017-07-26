@@ -230,7 +230,7 @@ section {
 }
 
 .project-title {
-	background-color: rgba(74, 170, 165, .9);
+	background-color: rgba(74, 170, 165, 1);
 	text-shadow: 1px 1px #000;
 	position: absolute;
 	display: flex;
@@ -247,7 +247,10 @@ section {
 	font-size: 1.2em;
 }
 
-.project-title p {
+.project-title div {
+	/*position: absolute;*/
+	/*top: 50%;*/
+	text-align: center;
 	padding: 0;
 	margin: 0;
 }
@@ -381,7 +384,7 @@ footer p {
 		}
 
 		.project-title {
-			background-color: rgba(74, 170, 165, .9);
+			/*background-color: rgba(74, 170, 165, .9);*/
 			text-shadow: 1px 1px #000;
 			position: absolute;
 			top: 73%;
@@ -484,7 +487,7 @@ footer p {
 		}
 
 		.project-title {
-			background-color: rgba(74, 170, 165, .9);
+			/*background-color: rgba(74, 170, 165, .9);*/
 			text-shadow: 1px 1px #000;
 			position: absolute;
 			display: flex;
@@ -655,7 +658,7 @@ footer p {
 		}
 
 		.project-title {
-			background-color: rgba(74, 170, 165, .9);
+			/*background-color: rgba(74, 170, 165, .9);*/
 			text-shadow: 1px 1px #000;
 			position: absolute;
 			top: 78%;
