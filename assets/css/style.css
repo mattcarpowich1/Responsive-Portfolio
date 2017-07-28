@@ -553,7 +553,7 @@ footer p {
 
 		header {
 			width: 100%;
-			min-width: 0px;
+			min-width: 360px;
 		}
 
 		h1 {
@@ -569,7 +569,7 @@ footer p {
 			flex-direction: column;
 			justify-content: center;
 			width: 100%;
-			min-width: 0px;
+			min-width: 360px;
 			margin: 0 auto;
 		}
 
@@ -712,7 +712,7 @@ footer p {
 
 		footer {
 			background-color: #666666;
-			min-width: 0px;
+			min-width: 360px;
 			width: 100%;
 			border-top: 8px solid #4aaaa5;
 		}
